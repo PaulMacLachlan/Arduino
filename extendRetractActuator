@@ -1,0 +1,39 @@
+//a simple sweep program that shows how to extend and retract a linear actuator at full speed.
+
+//Define pin numbers for Single Board
+int ENABLE1 = 8;
+int FWD1 = 11;
+int REV1 = 3;
+int Speed;
+void setup() {               
+  // initialize the digital pins as an output.
+  pinMode(ENABLE1, OUTPUT); 
+  pinMode(FWD1, OUTPUT);
+  pinMode(REV1, OUTPUT);
+}
+void loop() {
+  Speed = 255; //set a speed between 0-255
+  Forward();
+  delay(5000); //5 second delay
+  Stop();
+  delay(1000);
+  Reverse();
+  delay(5000);
+  Stop();
+  delay(1000);
+}
+void Forward(){
+  digitalWrite(ENABLE1, HIGH);
+  analogWrite(REV, 0); 
+  analogWrite(FWD, Speed);
+}
+void Reverse(){
+  digitalWrite(ENABLE1, HIGH);
+  analogWrite(FWD, 0); 
+  analogWrite(REV, Speed);
+}
+void Stop(){
+  digitalWrite(ENABLE1, LOW);
+  analogWrite(FWD1, 0); 
+  analogWrite(REV1, 0);
+}
