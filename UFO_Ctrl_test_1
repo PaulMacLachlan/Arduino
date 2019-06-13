@@ -1,0 +1,43 @@
+int switchstate = 0;
+
+void setup() {
+  // declare LED pins as outputs
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+
+  // declare the switch as an input
+  pinMode(2, INPUT);
+}
+
+void loop() {
+
+  // read the value of the switch
+  //digitalRead() checks to see if there is voltage on the pin or if there is
+  //no voltage
+  switchstate = digitalRead(2);
+
+  // if the button is not pressed turn on the GREEN LED and off the RED LEDs
+  if (switchstate == LOW) {
+  digitalWrite(3, HIGH); // turn the GREEN LED on pin 3 ON
+  digitalWrite(4, LOW); // turn the RED LED on pin 4 OFF
+  digitalWrite(5, LOW); // turn the RED LED on pin 5 OFF
+  }
+  // else component:
+  // if the switch is not LOW (the button is pressed) turn off the GREEN LED
+  // and blink alternatively the RED LEDs
+
+  else {
+    digitalWrite(3, LOW); // turn the GREEN LED on pin 3 OFF
+    digitalWrite(4, LOW); // turn the RED LED on pin 4 OFF
+    digitalWrite(5, HIGH); // turn the RED LED on pin 5 ON
+
+    // wait for one quarter of a second before changing the LED status
+
+    delay(250);
+    digitalWrite(4, HIGH); turn the RED LED on pin 4 ON
+    digitalWrite(5, LOW); turn the RED LED on pin 5 OFF
+    // wait for one quarter of a second before changing the LED status
+    delay(250);
+  }
+}
