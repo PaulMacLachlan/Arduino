@@ -1,5 +1,4 @@
-# Arduino
-Arduino Work for N SLASH A - LIVE 20XX
+# Arduino Work for N SLASH A - LIVE 20XX
 
 
 A few years back I decided I wanted to create a live music show that functioned similar to an art installation. I'd been playing live music for years, and I was bored, looking for something fresh. So I chellenged myself to design a show that would be part theater, part performance art, and be something that would be completely controlled by myself, live.
