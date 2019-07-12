@@ -11,6 +11,8 @@ And it would look something like this:<br>
 
 I wrote a short story that the set would revolve around, tentatively titled "the Mirror". It revolved around a single person, who for whatever reason was working with an AI they had created inside a small underground laboratory in order to help them understand what had happened to the human race, as no other living being could be located on the surface, and the reasoning for their dissapearance was not clear. The AI would guide the person along their understanding of the events that had unfolded and led to the demise of humanity, and the music would function as "stories" that the AI would tell to the user as part of their interaction.
 
+<img src="/images/2019_Stage_Plot_Animated_Screens_PR1.gif" width="800">
+
 To support this story, the live show would be designed to feel like a laboratory, where large LED screens would be used as the interface with the AI, but also as lighting and story telling elements.
 
 In order for this to work, I'd need to design and build out LED screens that could handle this story telling.
