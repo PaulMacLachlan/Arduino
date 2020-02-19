@@ -1,6 +1,17 @@
 # Arduino Work for N SLASH A - LIVE 20XX
 
 
+## UPDATE Feb 18 2020
+### I decided to start dreaming a little bigger:
+I've been in a bit of a studio purgatory, since I'm in between studios at the moment. As such, I cant really rehearse the way I could before, and It's got me thinking about why I was designing the show the way I was in the first place. I was really basing it off old ideas that I'd already done pieces of live in other versions.
+
+But what if money and time weren't an object? What if all I needed to do was "dreams" something up...
+
+With that in mind, I started tweaking the design elements a bit, and ended up here, for now... I can elaborate more in the next update.
+<img src="images/Stage_Plot_DREAMS_2020_2.png" width="800">
+
+
+## Initial Post
 A few years back I decided I wanted to create a live music show that functioned similar to an art installation. I'd been playing live music for years, and I was bored, looking for something fresh. So I chellenged myself to design a show that would be part theater, part performance art, and be something that would be completely controlled by myself, live.
 
 I envisioned that the show would take place in a gallery or other type of live space. Many venues I've played in over the years have been far from ideal for the kind of music produciton that I like to create, so while acoustically a large echo chamber of a gallery may present problems, the greater resolve of the partons in that scene being there to see ART, not just DRINK, would outweigh the theoretical cons of such a space, and allow me access to the kind of patrons I really wanted to play for anyways.
@@ -34,4 +45,3 @@ I have a ways to go, but its a passion project and I'll contiue to work on it as
 
 
 More soon...
-
