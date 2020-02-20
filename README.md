@@ -1,5 +1,9 @@
 # Arduino Work for N SLASH A - LIVE 20XX
 
+## UPDATE Feb 19 2020
+Another angle and some tweaks made to the stage setup... I'd love to use this as a jumping off point to imagine what this setup would be if it was 100 years into the future...
+<img src="images/Dream_Stage_Plot_2020_3.png" width="800">
+
 
 ## UPDATE Feb 18 2020
 ### I decided to start dreaming a little bigger:
